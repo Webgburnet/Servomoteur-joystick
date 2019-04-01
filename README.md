@@ -1,12 +1,25 @@
 # nunchuck arduino
 
-## Composants
+## Sources
+https://www.xarg.org/2016/12/using-a-wii-nunchuk-with-arduino/
 
-### Arduino_Uno
-![Arduino_Uno]()
+## Logiciels
+| Arduino | Fritzing | 
+| :-----: | :------: |
+| ![](/icone/Arduino.png) | ![](/icone/Fritzing.png) |
+ 
+## Composants
+| Arduino |
+| :-----: |
+| ![](/icone/Arduino.png) |
+
+### Arduino
+| Arduino Mega  | Arduino Uno |
+| :-------------: | :-------------: |
+| ![](/composants/Arduino%20Mega.jpg) | ![](/composants/Arduino%20Uno.jpg) |
 
 ## Branchement
-![Fritzing]()
+![](/fritzing/nunchuk-arduino-connect.png)
 
 ### Shield
 * NC
@@ -36,8 +49,8 @@
 * D13 : NC 
 
 ### I2C
-* SDA : NC
-* SCL : NC
+* SDA : Nunchuck
+* SCL : Nunchuck
 
 ### Alimentation
 * Vin : NC
